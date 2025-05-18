@@ -1,0 +1,48 @@
+[
+  {
+    "name": "casec92db2",
+    "data": [
+      {
+        "query": "hello",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "Hello! How can I help you today?\n"
+      },
+      {
+        "query": "list all projects",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "Okay, based on the provided resume, here's a list of the projects mentioned:\n\n*   **ATS Resume LLM App:** An application optimizing resumes for Applicant Tracking Systems (ATS) using OpenAI APIs.\n*   **Text to SQL LLM App using Llama2:** An app to convert natural language queries into SQL commands using Llama2.\n*   **Advanced Q&A Chatbots with DataStax Databases and Vector Embedding:** Chatbots that provide accurate, context-aware answers by integrating DataStax databases with vector embedding techniques."
+      },
+      {
+        "query": "list all skills",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "Okay, here's a list of the skills mentioned in the resume you sent:\n\n*   **Programming Languages:** Python\n*   **Frameworks & Tools:** TensorFlow, PyTorch, LangChain, LlamaIndex, Streamlit, Flask\n*   **Generative AI Technologies:** Open-source and paid LLM models (Llama2, Mistral, OpenAI, Google Gemini Pro)\n*   **Vector Databases:** ChromaDB, Pinecone\n*   **Database Management:** Experience with DataStax Cassandra DB in production environments, MySQL, MongoDB\n*   **Deployment Platforms:** AWS Bedrock, AWS (EC2, Lambda), Azure Functions, Hugging Face Spaces\n*   **AI/ML Techniques:** Fine-tuning with custom data, vector embedding, NLP, neural network optimization, MLOPS, Dockers, Kubernetes\n*   **Soft Skills:** Analytical thinking, problem-solving, teamwork, effective communication"
+      },
+      {
+        "query": "who won yesterday ipl match",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "Based on the search results, there were two IPL matches played yesterday, April 10, 2025:\n\n*   **Delhi Capitals (DC) vs Royal Challengers Bengaluru (RCB):** Delhi Capitals won by six wickets.\n*   **Gujarat Titans (GT) vs Rajasthan Royals (RR):** Gujarat Titans won by 58 runs."
+      },
+      {
+        "query": "april 11",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "On April 11, 2025, the IPL match was between **Chennai Super Kings (CSK) and Kolkata Knight Riders (KKR)**.\n\n**Kolkata Knight Riders won by 8 wickets.**\n"
+      },
+      {
+        "query": "kl Rahul images pls",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "I am unable to directly display images. However, I can provide you with links to websites where you can view KL Rahul's images:\n\n*   **Getty Images:** [https://www.gettyimages.com/photos/k-l-rahul](https://www.gettyimages.com/photos/k-l-rahul)\n*   **NDTV Sports:** [https://sports.ndtv.com/cricket/photos/kl-rahul-photos](https://sports.ndtv.com/cricket/photos/kl-rahul-photos)\n*   **Hindustan Times:** [https://www.hindustantimes.com/cricket/cricket-players/kl-rahul-photos](https://www.hindustantimes.com/cricket/cricket-players/kl-rahul-photos)\n*   **Alamy:** [https://www.alamy.com/stock-photo/kl-rahul.html](https://www.alamy.com/stock-photo/kl-rahul.html)\n*   **Shutterstock:** [https://www.shutterstock.com/editorial/search/kl-rahul](https://www.shutterstock.com/editorial/search/kl-rahul)\n\nI hope this helps!\n"
+      }
+    ],
+    "initial_session": {
+      "state": {},
+      "app_name": "my_agent",
+      "user_id": "user"
+    }
+  }
+]
